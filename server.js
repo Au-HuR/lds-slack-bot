@@ -58,7 +58,7 @@ slapp.message('^(hi|hello|hey)$', ['direct_mention', 'direct_message'], function
       .route('color', state)
   })
   .route('color', function (msg, state) {
-    var text = (msg.body.event && msg.body.event.text) || ''
+    var text = (msg.body.event && msg.body.event.text) || '';
 
     // user may not have typed text as their next action, ask again and re-route
     if (!text) {
@@ -68,11 +68,11 @@ slapp.message('^(hi|hello|hey)$', ['direct_mention', 'direct_message'], function
     }
 
     // add their response to state
-    state.color = text
+    state.color = text;
 
     msg
       .say('Thanks for sharing.')
-      .say(`Here's what you've told me so far: \`\`\`${JSON.stringify(state)}\`\`\``)
+      .say(`Here's what you've told me so far: \`\`\`${JSON.stringify(state)}\`\`\``);
     // At this point, since we don't route anywhere, the "conversation" is over
   });
 
@@ -111,7 +111,7 @@ slapp.message('.*', ['direct_mention', 'direct_message'], function (msg) {
 });
 
 // attach Slapp to express server
-var server = slapp.attachToExpress(express())
+var server = slapp.attachToExpress(express());
 
 // start http server
 server.listen(port, function (err) {
