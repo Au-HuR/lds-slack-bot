@@ -1,8 +1,7 @@
-
 {
-  "name": "lds-slack-bot",
+  "name": "starter-slapp-app",
   "version": "1.0.0",
-  "description": "Lusche des Abends Slack Bot",
+  "description": "Basic Slack app using the Slapp library and Slack Events API",
   "scripts": {
     "watch": "nodemon server.js",
     "test": "standard"
@@ -11,8 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/BeepBoopHQ/starter-slapp-app.git"
   },
-  "author": "Moritz Windhorst",
+  "author": "Brad Harris",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BeepBoopHQ/starter-slapp-app/issues"
+  },
+  "homepage": "https://github.com/BeepBoopHQ/starter-slapp-app#readme",
   "dependencies": {
     "express": "^4.14.0",
     "nodemon": "^1.11.0",
