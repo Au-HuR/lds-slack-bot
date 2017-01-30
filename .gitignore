@@ -1,0 +1,5 @@
+# Webstorm Daten
+.idea/
+
+# Dependency Directories
+node_modules/

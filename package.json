@@ -1,0 +1,11 @@
+{
+  "name": "lds-slack-bot",
+  "description": "Lusche des Abends Slack Bot",
+  "author": "Moritz Windhorst",
+  "license": "MIT",
+  "repository": " ",
+  "version": "0.0.1",
+  "dependencies": {
+    "slapp": "^2.0.1"
+  }
+}
