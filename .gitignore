@@ -1,5 +1,5 @@
 # Webstorm Daten
-.idea/
+.idea/vcs.xml
 
 # Dependency Directories
 node_modules/
